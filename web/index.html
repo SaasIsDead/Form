@@ -918,7 +918,7 @@ function generateFormHTML(standalone) {
     questionsHTML +
     '<button type="submit" class="submit-btn">送信する</button></form>' +
     '<div class="thank-you" id="thankYou"><h2>' + escHtml(formState.settings.thankYouMsg || 'ありがとうございました！') + '</h2><p>回答を受け付けました。</p></div>' +
-    '<div class="powered-by"><a href="https://github.com/SaasIsDead/Form">Powered by SID Forms</a></div></div>' +
+    '<div class="powered-by"><a href="https://github.com/Choreia/Form">Powered by SID Forms</a></div></div>' +
     '<script>function handleSubmit(e){e.preventDefault();var data=Object.fromEntries(new FormData(e.target));' + submitScript +
     'e.target.style.display="none";document.getElementById("thankYou").style.display="block";}<\/script>' +
     '</body></html>';
